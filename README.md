@@ -1,8 +1,9 @@
 # Demo-Webpack
 
 #  Do this to build node enviroment
-#### >npm install package.json(npm i)
-
+>1. npm install package.json(npm i)
+>2. cd Demo?
+>3. webpack(toload file name(webpack.config.js))
 ## webpack中文文档入门例子
 ### 踩坑总结，也有在webpack.config.js中通过注释写出，以下是总结
 ```bash
