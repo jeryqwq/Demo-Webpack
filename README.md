@@ -17,4 +17,4 @@ please use config.optimization.minimize instead.
 ---
 ```
 
-## [**webpack中文文档**](https://www.webpackjs.com/)
+## [**webpack中文文档**](https://www.webpackjs.com/){:target="_blank"} 
