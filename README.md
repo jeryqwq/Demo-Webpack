@@ -1,16 +1,18 @@
 # Demo-Webpack
 
 #  Do this to build node enviroment
-#### npm install package.json(npm i)
+#### >npm install package.json(npm i)
 
 ## webpack中文文档入门例子
 ### 踩坑总结，也有在webpack.config.js中通过注释写出，以下是总结
 ```bash
 Demo1:官网node版本8.2，当前8.9以及以上版本API差异，需改成,
-npx webpack src/index.js --output-filename dist/bundle.js
+>npx webpack src/index.js --output-filename dist/bundle.js
 ----
-Demo2:webpack不要全局安装，安装到当前项目下即可，否则报错：Cannot find module 'webpack/lib/node/NodeTemplatePlugin'，
-3.2版本的webpack也移除webpack.optimize.UglifyJsPlugin has been removed, please use config.optimization.minimize instead.
+Demo2:webpack不要全局安装，安装到当前项目下即可，否则报错：
+Cannot find module 'webpack/lib/node/NodeTemplatePlugin'，
+3.2版本的webpack也移除webpack.optimize.UglifyJsPlugin，
+please use config.optimization.minimize instead.
 ---
 ```
 
