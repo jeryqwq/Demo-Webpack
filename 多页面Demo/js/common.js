@@ -1,6 +1,7 @@
 define('common',()=>{
+
     return{
-        initINdex:()=>{
+        initIndex:()=>{
             console.log(' common initing index..');
         },
         initCart:()=>{
