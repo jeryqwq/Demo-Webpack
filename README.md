@@ -8,7 +8,8 @@
 ### 踩坑总结，也有在webpack.config.js中通过注释写出，以下是总结
 ```bash
  当你看了各种文档，找了无数视频，发现你还是没错的时候记得
-#### Npm uninstall --save webpack(各种插件模块)
+ Such as  XXX is not defined,Try to uninstall  webpack 
+#### Npm uninstall --save webpack(各种相关插件模块)
 #### npm uninstall -g webpoack(同理)
 #### npm i webpack -g
 #### npm i --save html-webpack-plugin(各种插件)
