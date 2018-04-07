@@ -25,6 +25,9 @@ Cannot find module 'webpack/lib/node/NodeTemplatePlugin'，
 3.2版本的webpack也移除webpack.optimize.UglifyJsPlugin，
 please use config.optimization.minimize instead.
 ---
+多页面Demo：按照npm官网使用extract-text-webpack-plugin组件
+提示Use Chunks.groupsIterable and filter by instanceof Entrypoint instead
+运行npm install extract-text-webpack-plugin@next//好像是版本问题，Github上说一大堆WebpackV4
 ```
 
 ## [**webpack中文文档**](https://www.webpackjs.com/){:target="_blank"} 
