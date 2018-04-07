@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],[function(n,i,o){var c;void 0===(c=(()=>({initINdex:()=>{console.log(" common initing index..")},initCart:()=>{console.log("init cart ing...")}})).call(i,o,i,n))||(n.exports=c)}]]);
