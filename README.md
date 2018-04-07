@@ -22,8 +22,6 @@
 ----
 入口起点:webpack不要全局安装，安装到当前项目下即可，否则报错：
 Cannot find module 'webpack/lib/node/NodeTemplatePlugin'，
-3.2版本的webpack也移除webpack.optimize.UglifyJsPlugin，
-please use config.optimization.minimize instead.
 ---
 多页面Demo：按照npm官网使用extract-text-webpack-plugin组件
 提示Use Chunks.groupsIterable and filter by instanceof Entrypoint instead
