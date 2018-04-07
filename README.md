@@ -28,8 +28,8 @@ please use config.optimization.minimize instead.
 多页面Demo：按照npm官网使用extract-text-webpack-plugin组件
 提示Use Chunks.groupsIterable and filter by instanceof Entrypoint instead
 运行npm install extract-text-webpack-plugin@next//好像是版本问题，Github上说一大堆WebpackV4
-多页面Demo：new webpack.optimize.UglifyJsPlugin不支持ES6语法，要么再引入babel或者在npm市场使用[*uglifyjs-webpack-plugin*](https://www.npmjs.com/package/uglifyjs-webpack-plugin)
+多页面Demo：new webpack.optimize.UglifyJsPlugin不支持ES6语法，要么再引入babel或者在npm市场使用[uglifyjs-webpack-plugin]
 
 ```
-
+## [**uglifyjs-webpack-plugin**](https://www.npmjs.com/package/uglifyjs-webpack-plugin)
 ## [**webpack中文文档**](https://www.webpackjs.com/)
