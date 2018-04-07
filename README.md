@@ -17,10 +17,10 @@
 ```
 -------------------------------------
 ```bash
-坑一:官网node版本8.2，当前8.9以及以上版本API差异，需改成,
+概念:官网node版本8.2，当前8.9以及以上版本API差异，需改成,
 >npx webpack src/index.js --output-filename dist/bundle.js
 ----
-坑二:webpack不要全局安装，安装到当前项目下即可，否则报错：
+入口起点:webpack不要全局安装，安装到当前项目下即可，否则报错：
 Cannot find module 'webpack/lib/node/NodeTemplatePlugin'，
 3.2版本的webpack也移除webpack.optimize.UglifyJsPlugin，
 please use config.optimization.minimize instead.
